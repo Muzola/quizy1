@@ -1,0 +1,6 @@
+<h1>gimmie your cat fact</h1>
+<%= simple_form_for @cat do |f| %>
+  <%= f.input :fact %>
+   <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
